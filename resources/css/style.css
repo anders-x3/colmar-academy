@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900|Ubuntu:300,700&display=swap');
+html {
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    color: hsl(0, 0%, 30%);
+    background-color: hsl(0, 0%, 95%);
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 0px;
+}
+
+/**** Header ****/
+
+header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 64px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+header p {
+    margin-right: auto;
+    font-family: ubuntu;
+}
+
+header img {
+    height: 32px;
+    margin-left: 24px;
+}
+
+#logo-bold {
+    font-weight: 900;
+}
+
+#logo-light {
+    font-weight: 300;
+}
+
+header ul {
+    margin-right: 16px;
+}
+
+header li {
+    display: inline;
+    margin:8px;
+}
+
+@media only screen and (maxwidth:800px) {}
+
+/**** Feature ****/
+
+#feature {
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    margin-top: 64px;
+}
+
+#feature img {
+    width: 60%;
+    margin: 24px 32px;
+}
+
+#feature div {
+    margin: 0px 16px;
+    width: 35%;
+}
+
+#feature div h3 {
+    margin: 35px 0px;
+}
+
+#feature div button {
+    background-color: hsl(0, 0%, 35%);
+    color: white;
+    padding: 8px;
+    border: none;
+    width: 90%;
+}
+
+/**** Articles ****/
+
+#article-section {
+    display: flex;
+    margin: 32px 0px;
+}
+
+#article-main {
+    width: 60%;
+    padding: 0px 24px;
+}
+
+#article-main p {
+    line-height: 1.5rem;
+}
+
+#author {
+    margin: 5px 0px;
+}
+
+#article-main img {
+    width: 100%;
+}
+
+#article-container {
+    box-sizing: border-box;
+    width: 40%;
+    height: fit-content;
+}
+.article {
+    display: flex;
+    align-items: center;
+    margin: 1px 0px;
+    padding: 10px 16px;
+    border-left: 1px solid lightgray; 
+    border-top: 1px solid lightgray; 
+    border-bottom: 1px solid lightgray; 
+    height: max-content;
+}
+
+.article:hover {
+    background-color: lightgray;
+}
+
+.article div * {
+    margin: 8px 0px;
+    text-decoration: none;
+}
+.article img {
+    flex-shrink: 0;
+    max-width: 35%;
+    border: 1px solid lightgray; 
+    margin-right: 24px;
+}
+
+/**** Courses ****/
+
+#course-section {
+    background-color: lightgray;
+}
+
+#course-section h1 {
+    text-align: center;
+    padding: 32px 0px;
+    margin: 0px;
+}
+
+#course-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px 56px;
+}
+.course {
+    margin: 16px;
+    width: 300px;
+    background-color: white;
+
+}
+
+.course img {
+    width: 100%;
+}
+
+.course div {
+    padding: 16px;
+}
+
+.course div p {
+    color: darkgray;
+}
+
+/**** Exhibit ****/
+
+#exhibit-headline {
+    margin: 32px 0px;
+    text-align: center;
+}
+
+#exhibit-section {
+    display: flex;
+}
+
+
+#exhibit-main {
+    padding: 0px 24px;
+    width: 60%;
+}
+
+#exhibit-main p {
+    line-height: 1.5rem;
+}
+
+#exhibit-container {
+    width: 40%;
+}
+
+.exhibit {
+    display: flex;
+    align-items: center;
+    margin: 16px 0px;
+}
+
+.exhibit div * {
+    margin: 8px 0px;
+}
+
+.exhibit img {
+    flex-shrink: 0;
+    max-width: 35%;
+    margin-right: 16px;
+}
+
+video {
+    width: 100%;
+}
+
+/**** Footer ****/
+
+footer {
+    display: flex;
+    text-align: right;
+    border-top: 1px solid lightgray; 
+}
+
+footer p {
+    margin-left: 16px;
+    margin-right: auto;
+}
+
+footer li {
+    display: inline;
+    margin: 16px;
+}
